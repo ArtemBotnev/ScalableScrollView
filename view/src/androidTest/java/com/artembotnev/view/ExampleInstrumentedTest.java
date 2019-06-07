@@ -1,4 +1,4 @@
-package com.artembotnev.lib;
+package com.artembotnev.view;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
