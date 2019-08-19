@@ -1,11 +1,29 @@
+[![](https://jitpack.io/v/ArtemBotnev/ScalableScrollView.svg)](https://jitpack.io/#ArtemBotnev/ScalableScrollView)
 ## Scalable ScrollView
 
  This library is modification of android.widget.ScrollView and allows user to resize TextView,
 placed into it, by two fingers.
 
-![alt text](gif/ssv.gif)
+![alt text](https://github.com/ArtemBotnev/gifs/blob/master/ssv.gif)
 
-Just replace your ScrollView with ScalableScrollView in layout.xml
+#### To use this, add dependensies to your project:
+Jitpack repository to your root build.gradle at the end of repositories
+```groovy
+allprojects {
+ repositories {
+  ...
+  maven { url 'https://jitpack.io' }
+  }
+ }
+```
+and to module level build.gradle
+```groovy
+dependencies {
+ implementation 'com.github.ArtemBotnev:ScalableScrollView:1.0.1'
+}
+```
+
+#### Just replace your ScrollView with ScalableScrollView in layout.xml
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
